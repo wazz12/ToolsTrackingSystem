@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tool_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_5_dp"
+    android:background="@color/white_color"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/margin_10_dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_5_dp">
+
+        <ImageView
+            android:id="@+id/avatar_image_view"
+            android:layout_width="@dimen/small_avatar_image_size"
+            android:layout_height="@dimen/small_avatar_image_size"
+            android:layout_gravity="center"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_10_dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tool_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_size_16_sp"
+                tools:text="Tool name" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/borrowed_tool_count_title_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/borrowed_tools_count"
+                    android:textSize="@dimen/font_size_14_sp" />
+
+                <TextView
+                    android:id="@+id/borrowed_tool_count_text_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_20_dp"
+                    android:textColor="@color/primary_text_color"
+                    android:textSize="@dimen/font_size_16_sp"
+                    android:textStyle="bold"
+                    tools:text="4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

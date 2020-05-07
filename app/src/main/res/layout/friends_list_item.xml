@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/friend_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_5_dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white_color"
+    app:cardCornerRadius="@dimen/margin_10_dp"
+    app:cardElevation="2dp">
+
+    <TextView
+        android:id="@+id/friend_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_10_dp"
+        android:gravity="center"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/font_size_16_sp"
+        tools:text="Friend name" />
+
+</androidx.cardview.widget.CardView>

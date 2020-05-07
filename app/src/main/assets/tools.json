@@ -1,0 +1,62 @@
+[
+  {
+    "id": "0",
+    "name": "Wrench",
+    "item_count": 6,
+    "image_name": "ic_wrench"
+  },
+  {
+    "id": "1",
+    "name": "Cutter",
+    "item_count": 15,
+    "image_name": "ic_cutter"
+  },
+  {
+    "id": "2",
+    "name": "Pliers",
+    "item_count": 12,
+    "image_name": "ic_plier"
+  },
+  {
+    "id": "3",
+    "name": "Screwdriver",
+    "item_count": 13,
+    "image_name": "ic_screwdriver"
+  },
+  {
+    "id": "4",
+    "name": "Welding Machine",
+    "item_count": 3,
+    "image_name": "ic_welding_machine"
+  },
+  {
+    "id": "5",
+    "name": "Welding Glasses",
+    "item_count": 7,
+    "image_name": "ic_welding_glasses"
+  },
+  {
+    "id": "6",
+    "name": "Hammer",
+    "item_count": 4,
+    "image_name": "ic_hammer"
+  },
+  {
+    "id": "7",
+    "name": "Measuring Tape",
+    "item_count": 9,
+    "image_name": "ic_measuring_tape"
+  },
+  {
+    "id": "8",
+    "name": "Alan Key Set",
+    "item_count": 4,
+    "image_name": "ic_allen_key_set"
+  },
+  {
+    "id": "9",
+    "name": "Air Compressor",
+    "item_count": 2,
+    "image_name": "ic_air_compressor"
+  }
+]

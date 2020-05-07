@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">Patient Appointment</string>
-    <string name="appointment_list">Appointment List</string>
-    <string name="add">Add</string>
-    <string name="empty_list">Patient Appointment list is empty</string>
-    <string name="name">Name</string>
-    <string name="date_of_birth">Date of birth</string>
-    <string name="gender">Gender</string>
-    <string name="appointment_date">Appointment date</string>
-    <string name="enter_name">Enter name</string>
-    <string name="select_date">Select Date</string>
-    <string name="select_gender">Select Gender</string>
-    <string name="alert">Alert</string>
-    <string name="success">Success</string>
-    <string name="appointment_add_success">Patient Appointment added successfully</string>
-    <string name="default_date_format">dd-MM-yyyy</string>
+    <string name="app_name">ToolsTracking</string>
+    <string name="tools_list">Tools List</string>
+    <string name="friends">Friends</string>
+    <string name="total_tools_count">Total tools count</string>
+    <string name="borrowed_tools_count">Borrowed tools count</string>
+    <string name="loan_tool">Loan %s to</string>
+    <string name="loan_successfully">1 %s has been loaned to %s</string>
+    <string name="loan_tool_error">%s count is 0 so cannot loan</string>
+    <string name="select_friend_error">Please select friend first</string>
+    <string name="not_borrowed_tool">%s has not borrowed any tool</string>
+    <string name="tools_loaned">Tools loaned to %s</string>
+    <string name="mark_return">Mark 1 %s as returned</string>
+    <string name="return_successfully">1 %s has been returned by %s</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
 </resources>
